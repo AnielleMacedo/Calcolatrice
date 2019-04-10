@@ -51,10 +51,10 @@
         android:layout_width="72dp"
         android:layout_height="52dp"
         android:layout_marginStart="7dp"
-        android:layout_marginTop="11dp"
+        android:layout_marginBottom="265dp"
         android:text="C"
-        app:layout_constraintStart_toEndOf="@+id/num0"
-        app:layout_constraintTop_toBottomOf="@+id/num9" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/num0" />
 
     <Button
         android:id="@+id/num0"
